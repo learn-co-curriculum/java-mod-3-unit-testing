@@ -39,7 +39,7 @@ public class StringUtils {
 ```
 
 This basic implementation does not actually reverse the string that is passed
-in, so it currently does not work. Let's go ahead and write a testing for it
+in, so it currently does not work. Let's go ahead and write a test for it
 though - we will discuss the process of writing unit tests before the
 corresponding functionality is actually implemented in a later section about
 "Test Driven Development".
@@ -134,8 +134,8 @@ class StringUtilsTest {
 
 We've declared a global `stringUtils` variable, so we can initialize it in the
 `setUp()` method and use it in our `reserve()` test method . In the `reserve()`
-test method, we are create a `String` object we will use for testing and using a
-jUnit method to test whether the return value is equal to what we expected:
+test method, we are creating a `String` object that we will use for testing by
+using a jUnit method to test whether the return value is equal to what we expected:
 
 ```java
         assertEquals("elpmas", reversed);
@@ -151,7 +151,7 @@ In this case, we want to see if the `String` object that was returned was indeed
 the reverse of the `String` object we provided to the method we're trying to
 test.
 
-When we've tested our code before, we're used the "print out" method of testing,
+When we've tested our code before, we've used the "print out" method of testing,
 meaning that we would run our program, see what output it produced and visually
 check if that output matched our expectations. This presents two issues that
 unit testing allows us to address:
