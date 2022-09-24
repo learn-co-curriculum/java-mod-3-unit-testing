@@ -272,7 +272,7 @@ Here, we use the same string value again to make sure it can get reversed back
 to the original.
 
 Let's now come up with a better implementation of our `reverse` method, which is
-based on reversing the order of a `byte` array that we create from the original
+based on reversing the order of a `char` array that we create from the original
 `String` object:
 
 ```java
